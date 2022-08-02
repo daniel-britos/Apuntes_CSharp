@@ -26,9 +26,7 @@ Console.WriteLine("Tu edad es" + edad) //Tu edad es 36
 
 <!-- Interpolación de strings -->
 
-'''
 Console.WriteLine($"Tu edad es {edad}") //Tu edad es 36
-'''
 
 <!-- Incremento -->
 
