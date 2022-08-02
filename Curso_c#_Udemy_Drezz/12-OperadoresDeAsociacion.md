@@ -12,5 +12,4 @@ int numero1;
 int numero2;
 int numero3;
 numero1 = numero2 = numero3 = 27; //ahora cualquiera de las variables imprimirá 27
-
 `
