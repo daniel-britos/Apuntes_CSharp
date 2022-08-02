@@ -1,0 +1,15 @@
+<p>
+C# es un lenguaje fuertemente tipado, por lo que tenemos que <br>
+indicar el tipo de dato que vamos a asignar.<br>
+En c# la variable "var" nos permite asignar el tipo de dato <br>
+de manera global según lo que reciba.<br>
+</p>
+
+```
+
+var numero = 10 //devuelve el entero 10 ya que c# interpreta como numero
+
+//devuelve error ya que c# no permite reasignar un tipo de dato diferente al ya signado
+numero = 12.2
+
+```

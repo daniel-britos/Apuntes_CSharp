@@ -1,5 +1,4 @@
-
-int numero;  //declaro variable
+int numero; //declaro variable
 
 numero = 30; //inicializo variable
 
