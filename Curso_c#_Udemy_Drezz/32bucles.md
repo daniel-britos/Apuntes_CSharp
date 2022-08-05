@@ -1,4 +1,4 @@
-<img src="bucles.jpg">
+<img src="/img/bucles.jpg">
 ```
         static void Main(string[] args)
         {
