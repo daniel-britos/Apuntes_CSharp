@@ -1,5 +1,6 @@
 <img src="/img/bucles.jpg">
-```
+
+```c#
         static void Main(string[] args)
         {
             Console.WriteLine("¿Quieres entrar al bucle?");
@@ -13,6 +14,8 @@
             }
             Console.WriteLine("Adios!");
         }
+
+```
 
 ```
 
