@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+
+namespace LeerData
+{
+    public class appVentaLibrosContext : DbContext
+    {
+        private const string connectionString = @"Data Source=desktop-8j9etsu; Initial Catalog=LibrosWeb; Integrated Security=True;";
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(connectionString);
+        }
+        public DbSet<Libro> Libro { get; set; }
+    }
+}
